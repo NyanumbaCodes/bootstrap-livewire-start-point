@@ -1,3 +1,67 @@
+# Laravel 12, Jetstream <Livewire>, Bootstrap 5.3.3 and SASS - Starter Kit
+
+## 🚀 Introduction
+This is a **starter point** for Laravel 12 applications, pre-configured with:  
+- **Laravel 12** – The latest Laravel release for modern web applications.  
+- **Jetstream with Livewire** – A robust authentication and dashboard system.  
+- **Bootstrap 5.3.3** – The latest Bootstrap version for a responsive UI.  
+- **SASS** – A powerful CSS preprocessor for maintainable styles.  
+
+## 🔥 Features  
+✅ **Pre-configured Jetstream with Livewire** for authentication  
+✅ **Bootstrap 5.3.3** for modern, responsive UI components  
+✅ **SASS integration** for easier CSS management  
+✅ **Role-based authentication** (customizable)  
+✅ **Well-structured project setup** for faster development  
+
+## 📦 Installation  
+1. Clone the repository:  
+
+   ```bash
+   git clone https://github.com/NyanumbaCodes/bootstrap-livewire-start-point.git app-name
+   cd app-name
+   ```
+
+2. Install dependencies:  
+
+   ```bash
+   composer install
+   npm install && npm run build
+   ```
+
+3. Configure environment:  
+
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+4. Run migrations:  
+
+   ```bash
+   php artisan migrate
+   ```
+
+5. Serve the application:  
+
+   ```bash
+   php artisan serve
+   ```
+
+## 🎨 Customization  
+You can customize the UI components in **resources/views** and modify SASS styles in **resources/sass**.
+
+## 🤝 Contribute  
+Feel free to contribute to improve this starter kit! PRs are welcome.
+
+## 📢 Feedback  
+If you encounter any issues or have suggestions, open an issue on GitHub.
+
+---
+
+Happy coding! 🚀  
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
