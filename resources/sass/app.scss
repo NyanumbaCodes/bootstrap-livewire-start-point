@@ -1,0 +1,123 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "/node_modules/bootstrap/scss/bootstrap";
+
+// Custom
+@import "custom";
+
+.link-title {
+    margin-left: 10px !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+}
+
+h1,
+h2 {
+    //    font-size: 12px;
+    font-weight: 600;
+    // color: #0e244d;
+}
+h3,
+h4,
+h5,
+h6 {
+    // font-size: smaller;
+    font-weight: 500;
+    // color: black;
+}
+
+li {
+    // font-size: 12px;
+    font-weight: 400;
+    // color: #1575bb !important;
+    // font-style: italic;
+}
+
+span,
+a,
+p {
+    font-size: 12px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "GRAD" 20, "opsz" 25;
+}
+.app-wrapper {
+    background-color: #dadada;
+}
+
+.nav-item.active {
+    .nav-link {
+        .material-symbols-outlined {
+            font-variation-settings: "FILL" 1 !important;
+        }
+    }
+}
+.nav-item:hover {
+    .nav-link {
+        .material-symbols-outlined {
+            font-variation-settings: "FILL" 1 !important;
+        }
+    }
+}
+
+.default-bg-dark {
+    // background: #181818 !important;
+    background: linear-gradient(130deg, #000000, #444444) !important;
+    box-shadow: 2px 2px 5px #010a1c;
+    color: whitesmoke;
+    z-index: 1;
+    h1 {
+        // font-size: 30px;
+        font-size: 3.5vw;
+        font-weight: 100;
+        span {
+            font-weight: 600;
+            color: #d4d4d4;
+            font-size: 3.5vw;
+        }
+    }
+    .nav-item {
+        color: lighten($color: #1575bb, $amount: 40%) !important;
+        :hover {
+            color: white !important;
+        }
+        .active {
+            color: white !important;
+        }
+    }
+    .nav-link.active {
+        background-color: #ffffff !important;
+        color: black !important;
+    }
+}
+.default-bg-light {
+    background: #3a3a3a !important;
+    box-shadow: 2px 2px 5px #010a1c;
+    color: whitesmoke;
+    h1 {
+        // font-size: 30px;
+        font-size: 3.5vw;
+        font-weight: 100;
+        span {
+            font-weight: 600;
+            color: #d4d4d4;
+            font-size: 3.5vw;
+        }
+    }
+}
+.fullscreen
+{
+    height: 100vh;
+}
